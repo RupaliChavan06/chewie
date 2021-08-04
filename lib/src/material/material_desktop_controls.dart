@@ -157,7 +157,7 @@ class _MaterialDesktopControlsState extends State<MaterialDesktopControls>
           },
           iconData: _subtitleOn
               ? Icons.closed_caption
-              : Icons.closed_caption_off_outlined,
+              : Icons.closed_caption_off,
           title: chewieController.optionsTranslation?.subtitlesButtonText ??
               'Subtitles',
         ),
