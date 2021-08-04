@@ -172,7 +172,7 @@ class _MaterialControlsState extends State<MaterialControls>
           },
           iconData: _subtitleOn
               ? Icons.closed_caption
-              : Icons.closed_caption_off_outlined,
+              : Icons.closed_caption_off,
           title: chewieController.optionsTranslation?.subtitlesButtonText ??
               'Subtitles',
         ),
@@ -429,7 +429,7 @@ class _MaterialControlsState extends State<MaterialControls>
         child: Icon(
           _subtitleOn
               ? Icons.closed_caption
-              : Icons.closed_caption_off_outlined,
+              : Icons.closed_caption_off,
           color: _subtitleOn ? Colors.white : Colors.grey[700],
         ),
       ),
